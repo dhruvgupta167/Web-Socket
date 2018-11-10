@@ -11,11 +11,16 @@
     <script src="script.js"></script>
 </head>
 <body>
-<h1>Socket.io Example</h1>
-<input type="text" id="msgbox">
-<button id="sendmsg">SEND</button>
-<ul id="msglist">
-
-</ul>
+<div id="login-div">
+    <h1>LOGIN</h1>
+    <input placeholder="username" type="text" id="user">
+    <button id="login">LOGIN</button>
+</div>
+<div id="chat-div" style="display: none">
+    <h1>INBOX</h1>
+    <input placeholder="new message" type="text" id="msgbox">
+    <button id="sendmsg">SEND</button>
+    <p id="msglist"></p>
+</div>
 </body>
 </html>
